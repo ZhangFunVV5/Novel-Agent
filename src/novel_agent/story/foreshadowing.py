@@ -1,0 +1,1 @@
+"""Foreshadowing models and operations."""

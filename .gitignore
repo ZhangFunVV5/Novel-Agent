@@ -1,0 +1,56 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+coverage.xml
+.coverage
+htmlcov/
+
+# Virtual environments and local Python tooling
+.venv/
+venv/
+ENV/
+env/
+.python-version.local
+
+# Build and packaging output
+build/
+dist/
+wheelhouse/
+*.egg-info/
+pip-wheel-metadata/
+
+# Local environment, credentials, and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+secrets.*
+
+# Local databases and runtime output
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+data/
+novels/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,1 @@
+"""Summarize novel content."""
